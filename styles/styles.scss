@@ -1,0 +1,72 @@
+.home-intro {
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/09/web-design-best-practices.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 1rem 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      color: white;
+      text-align: center;
+      h1 {
+        font-size: 4rem;
+        @media screen and (max-width: 768px) {
+          font-size: 3rem;
+        }
+      }
+      p.lead {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.display-1 {
+  font-size: 4rem;
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+}
+.display-2 {
+  font-size: 3.5rem;
+  @media screen and (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+}
+.display-3 {
+  font-size: 3rem;
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+.display-4 {
+  font-size: 2.5rem;
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+.lead {
+  font-size: 1.2rem;
+}

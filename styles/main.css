@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.bg-light-shadow-transparent-gradient-shadow {
+  background: rgba(244, 244, 244, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 15px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbar .nav-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar .nav-items .nav-item {
+  margin: 0 0.5rem;
+}
+.navbar .nav-items .nav-item .nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.home-intro {
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/09/web-design-best-practices.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 1rem 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-intro section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-intro section div {
+  color: white;
+  text-align: center;
+}
+.home-intro section div h1 {
+  font-size: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .home-intro section div h1 {
+    font-size: 3rem;
+  }
+}
+.home-intro section div p.lead {
+  font-size: 1.2rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.display-1 {
+  font-size: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .display-1 {
+    font-size: 3rem;
+  }
+}
+
+.display-2 {
+  font-size: 3.5rem;
+}
+@media screen and (max-width: 768px) {
+  .display-2 {
+    font-size: 2.5rem;
+  }
+}
+
+.display-3 {
+  font-size: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .display-3 {
+    font-size: 2rem;
+  }
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+
+.lead {
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: darkblue;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-btn {
+  position: fixed;
+  bottom: 20px;
+  right: auto;
+  left: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 1030;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  background-color: darkblue;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.row .col-lg-10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+@media (max-width: 768px) {
+  .row .col-lg-10 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.row .col-lg-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+@media (max-width: 768px) {
+  .row .col-lg-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.row .col-lg-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+@media (max-width: 768px) {
+  .row .col-lg-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.row .col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0.9rem 1rem;
+}
+@media (max-width: 862px) {
+  .row .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.row .col-lg-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+@media (max-width: 768px) {
+  .row .col-lg-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.row .col-lg-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  padding: 0.9rem 1rem;
+}
+@media (max-width: 992px) {
+  .row .col-lg-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .row .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.row .col-lg-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 0.5rem 0.5rem;
+}
+@media (max-width: 992px) {
+  .row .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .row .col-lg-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.delay-1 {
+  animation-delay: 0.2s;
+}
+
+.delay-2 {
+  animation-delay: 0.5s;
+}
+
+.delay-3 {
+  animation-delay: 0.7s;
+}
+
+.delay-4 {
+  animation-delay: 0.9s;
+}
+
+#top-content {
+  display: flex;
+}
+
+#templates {
+  display: none;
+}
+
+#services {
+  display: none;
+}
+
+#projects {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  color: black !important;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.card h3, .card h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.card .card-btn {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.card .card-btn:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=main.css.map */

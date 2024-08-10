@@ -1,0 +1,35 @@
+.bg-light-shadow-transparent-gradient-shadow {
+  background: rgba(244, 244, 244, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 15px;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .nav-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    .nav-item {
+      margin: 0 0.5rem;
+      .nav-link {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
