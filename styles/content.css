@@ -1,13 +1,1 @@
-#top-content {
-  display: flex;
-}
-
-#templates {
-  display: none;
-}
-
-#services {
-  display: none;
-}
-
-/*# sourceMappingURL=content.css.map */
+#top-content{display:flex}#templates{display:none}#services{display:none;height:120v}#projects{display:none}
